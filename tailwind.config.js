@@ -8,7 +8,11 @@ export default {
         teal: "#2E7D9B",
       },
       boxShadow: {
-        soft: "0 16px 40px rgba(26, 60, 94, 0.08)",
+        soft: "0 8px 32px rgba(26, 60, 94, 0.10)",
+        card: "0 2px 8px rgba(26, 60, 94, 0.06)",
+      },
+      spacing: {
+        safe: "env(safe-area-inset-bottom, 0px)",
       },
     },
   },
